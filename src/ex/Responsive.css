@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  .home, .about, .project, .services, .contact {
+    margin: 120px 50px;
+  }
+
+  .home-container, .about-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    display: none;
+  }
+
+  .home, .about, .project, .services, .contact {
+    margin: 100px 20px;
+  }
+
+  .home-container, .about-container, .contact-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .projects-container, .services-container {
+    grid-template-columns: 1fr;
+  }
+}
