@@ -16,7 +16,8 @@ const projectList = [
 
   { img: Travel, title: 'Travel Website', 
   desc: 'Built a responsive landing page for a travel website with clean UI and organized content sections.Optimized layout for different screen sizes to deliver a seamless browsing experience with contact form.', 
-  cName:"cImg", skills: ['React','CSS',] },
+  cName:"cImg", git:"https://github.com/kirubanithi08/tourism_web", live:"https://tourismweb-eta.vercel.app/",
+  skills: ['React','CSS',] },
 
   { img: Portfolio, title: 'Private Chat', 
   desc: 'Built a real-time private chat app using Spring Boot, WebSockets (STOMP), and Spring Security, with a lightweight HTML and JS frontend and JPA for message storage.Spring Security with JPA for message persistence.', 
@@ -51,8 +52,8 @@ export default function Projects() {
             <p>{p.desc}</p>
             <div className="skills">{p.skills.map((s,i)=>(<span key={i} href="#">{s}</span>))}</div>
             <div className="btns">
-              <a href="#" className="btn"><i className="fab fa-github"></i> GitHub</a>
-              <a href="#" className="btn"><i className="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href={p.git} className="btn"><i className="fab fa-github"></i> GitHub</a>
+              <a href={p.live} className="btn"><i className="fas fa-external-link-alt"></i> Live Demo</a>
             </div>
           </div>
         ))}
