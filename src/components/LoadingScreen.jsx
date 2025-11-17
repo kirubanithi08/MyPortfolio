@@ -9,7 +9,7 @@ export default function LoadingRing({ fadeOut }) {
         <div className="inner two"></div>
         <div className="inner three"></div>
       </div>
-      <h2 className="ring-name">Kiruba</h2>
+      <h2 className="ring-name">KirubaNithi</h2>
     </div>
   );
 }
