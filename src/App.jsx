@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import LoadingScreen from './components/LoadingScreen';
@@ -9,23 +11,40 @@ import Contact from './components/Contact';
 import BackToTop from './components/BackToTop';
 
 export default function App() {
+  const [fadeOut, setFadeOut] = useState(false);
   const [loadingDone, setLoadingDone] = useState(false);
 
   useEffect(() => {
-    // simulate the original 4s loader
-    const t = setTimeout(() => setLoadingDone(true), 4000);
-    return () => clearTimeout(t);
+    
+    const fadeTimer = setTimeout(() => {
+      setFadeOut(true);
+    }, 3200);
+
+    
+    const removeTimer = setTimeout(() => {
+      setLoadingDone(true);
+    }, 3900);
+
+    return () => {
+      clearTimeout(fadeTimer);
+      clearTimeout(removeTimer);
+    };
   }, []);
 
   return (
     <>
-      {!loadingDone && <LoadingScreen />}
-      <div id="main-page" className={loadingDone ? 'visible' : ''} aria-hidden={!loadingDone}>
+      {!loadingDone && <LoadingScreen fadeOut={fadeOut} />}
+      
+      <div
+        id="main-page"
+        className={loadingDone ? 'visible' : ''}
+        aria-hidden={!loadingDone}
+      >
         <Header />
         <main>
           <section id="home"><Home /></section>
           <section id="about"><About /></section>
-          <section id="skills"><Skills/></section>
+          <section id="skills"><Skills /></section>
           <section id="project"><Projects /></section>
           <section id="contact"><Contact /></section>
         </main>
@@ -34,3 +53,4 @@ export default function App() {
     </>
   );
 }
+
