@@ -19,9 +19,9 @@ const projectList = [
   cName:"cImg", git:"https://github.com/kirubanithi08/tourism_web", live:"https://tourismweb-eta.vercel.app/",
   skills: ['React','CSS',] },
 
-  { img: Portfolio, title: 'Private Chat', 
-  desc: 'Built a real-time private chat app using Spring Boot, WebSockets (STOMP), and Spring Security, with a lightweight HTML and JS frontend and JPA for message storage.Spring Security with JPA for message persistence.', 
-  cName:"cImg", skills: ['HTML','CSS','Js','Spring boot'] },
+  // { img: Portfolio, title: 'Private Chat', 
+  // desc: 'Built a real-time private chat app using Spring Boot, WebSockets (STOMP), and Spring Security, with a lightweight HTML and JS frontend and JPA for message storage.Spring Security with JPA for message persistence.', 
+  // cName:"cImg", skills: ['HTML','CSS','Js','Spring boot'] },
 
   { img: Portfolio, title: 'Inventory Management', 
   desc: 'Developed a desktop application with CRUD operations, inventory tracking, low-stock alerts, secure role-based authentication, and Excel export features for streamlined reporting.', 
