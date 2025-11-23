@@ -4,13 +4,16 @@ import "./Projects.css"
 
 import Portfolio from "../assets/Portfolio.png"
 import Travel from "../assets/Travel.png"
+import Inventory from "../assets/inventory.png"
+import Recipe from "../assets/recipe.png"
+
 
 const projectList = [
   { img: Portfolio, title: 'E-Commerce Website', 
     desc: 'Modern online store with product filtering, cart, and payment system.',
     cName:"cImg", skills: ['HTML','CSS','JavaScript'] },
 
-  { img: Portfolio, title: 'Recipes Sharing', 
+  { img: Recipe, title: 'Recipes Sharing', 
     desc: "Built a Spring Boot web app for creating and managing recipes, using MVC architecture, MySQL database design, secure authentication, and robust data validation for a reliable user experience.", 
     cName:"cImg", skills: ['HTML','CSS','Js', 'Spring boot'] },
 
@@ -23,7 +26,7 @@ const projectList = [
   // desc: 'Built a real-time private chat app using Spring Boot, WebSockets (STOMP), and Spring Security, with a lightweight HTML and JS frontend and JPA for message storage.Spring Security with JPA for message persistence.', 
   // cName:"cImg", skills: ['HTML','CSS','Js','Spring boot'] },
 
-  { img: Portfolio, title: 'Inventory Management', 
+  { img: Inventory, title: 'Inventory Management', 
   desc: 'Developed a desktop application with CRUD operations, inventory tracking, low-stock alerts, secure role-based authentication, and Excel export features for streamlined reporting.', 
   cName:"cImg", skills: ['Java','MySQL'] },
 
