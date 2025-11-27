@@ -1,6 +1,6 @@
 import "./Home.css";
 import HomeImg from "../assets/user.png";
-
+import resume from "../assets/kirubanithi_Resume.pdf"
 import React, { useEffect, useState } from "react";
 
 const words = [
@@ -70,10 +70,13 @@ export default function Home() {
               {/* <button className="btn-home1">
                 <i className="fa-solid fa-arrow-right"></i> Hire Me
               </button> */}
-
+ <a href={resume}>
               <button className="btn-home2">
+                {/* <a href={resume}> */}
                 <i className="fa-solid fa-download"></i> Download CV
+                {/* </a> */}
               </button>
+               </a>
             </div>
 
             <div className="hhr">
