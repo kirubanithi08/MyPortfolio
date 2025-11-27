@@ -23,7 +23,7 @@ const projectList = [
 
   { img: Travel, title: 'Travel Website', 
   desc: 'Built a responsive landing page for a travel website with clean UI and organized content sections.Optimized layout for different screen sizes to deliver a seamless browsing experience with contact form.', 
-  btn:"btn", cName:"cImg", git:"https://github.com/kirubanithi08/tourism_web", 
+  btn:"btn", cName:"cImg", git:"https://github.com/kirubanithi08/TourismWeb", 
   live:"https://tourismweb-eta.vercel.app/",
   skills: ['React','CSS',] },
 
