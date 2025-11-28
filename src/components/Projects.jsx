@@ -6,14 +6,14 @@ import Portfolio from "../assets/Portfolio.png"
 import Travel from "../assets/Travel.png"
 // import Inventory from "../assets/inventory.png"
 import Recipe from "../assets/recipe.png"
-// import GameStore from "../assets/GameStore.png"
+import GameStore from "../assets/GameStore.png"
 // import Authapi from "../assets/Authapi.png"
 
 const projectList = [
-  { img: Portfolio, title: 'GameStore WebApp', 
+  { img: GameStore, title: 'GameStore WebApp', 
     desc: 'Modern online store with product filtering, cart, and payment system.',
     btn:"btn", cName:"cImg", git:"https://github.com/kirubanithi08/Game_Store", 
-  live:"empty",
+  live:"https://game-store-lilac-five.vercel.app/",
   skills: ['SpringBoot','JPA','MySQL','SpringSecurity','React'] },
 
   { img: Recipe, title: 'Recipes Sharing', 
