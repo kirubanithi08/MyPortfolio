@@ -11,7 +11,7 @@ import GameStore from "../assets/GameStore.png"
 
 const projectList = [
   { img: GameStore, title: 'GameStore WebApp', 
-    desc: 'Developed backend for an e-commerce web app with JWT-based authentication and role-basedaccess. Implemented REST controllers for games, categories, and user operations. Implemented validation, global exception handling, and Docker-based containerize deployment.',
+    desc: 'Developed backend for an e-commerce web app with JWT-based authentication and role-basedaccess. Implemented REST controllers for games, categories, and user operationsand Docker-based containerize deployment.',
     btn:"btn", cName:"cImg", git:"https://github.com/kirubanithi08/Game_Store", 
   live:"https://game-store-lilac-five.vercel.app/",
   skills: ['SpringBoot','JPA','MySQL','SpringSecurity','React'] },
