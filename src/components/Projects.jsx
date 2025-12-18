@@ -14,7 +14,7 @@ const projectList = [
     desc: 'Developed backend for an e-commerce web app with JWT-based authentication and role-basedaccess. Implemented REST controllers for games, categories, and user operationsand Docker-based containerize deployment.',
     btn:"btn", cName:"cImg", git:"https://github.com/kirubanithi08/Game_Store", 
   live:"https://game-store-lilac-five.vercel.app/",
-  skills: ['SpringBoot','MySQL','JWT','React'] },
+  skills: ['SpringBoot','MySQL','JWT'] },
 
   { img: Recipe, title: 'Recipes Sharing', 
     desc: "Built a Spring Boot web app for creating and managing recipes, using MVC architecture, MySQL database design, secure authentication, and robust data validation for a reliable user experience.", 
